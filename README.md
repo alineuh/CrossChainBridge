@@ -14,3 +14,14 @@ This project bridges TST tokens between the Holesky and Sepolia networks. **Impo
 
 ### Adresse du Propriétaire
 - `0x1c979731cbA0a975CE669f8cbE932ad3127fA3f2`
+
+
+## step 2 : indexer 
+
+### Setting Up the Database
+Table: processed_events
+- id → Auto-increment ID
+- tx_hash → Unique transaction hash
+- event_name → Type of event (Deposit, Distribution, etc.)
+- block_number → Block number where the event happened
+- timestamp → Time of recording
